@@ -25,7 +25,6 @@ namespace SmartCredit
             }
             app.UseStaticFiles();
             app.UseBrowserLink();
-           // app.UseSession();
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
